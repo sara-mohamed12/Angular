@@ -1,0 +1,15 @@
+.mainwrapper{
+    text-align: center;
+    margin-top: 32px;
+}
+
+img{
+    display:block;
+    margin:auto;
+    padding:12px;
+}
+
+.mainwrapper input[type=button]{
+    padding:10px;
+    margin:5px;
+}

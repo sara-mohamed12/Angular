@@ -1,0 +1,24 @@
+<!-- <p>home works!</p> -->
+
+<!-- <div> -->
+    <!-- <h2>Home</h2> -->
+    <!-- data:{{DataHome}} -->
+    <!-- <br> -->
+    <!-- data:{{DDD}} -->
+  <!-- </div> -->
+
+
+  <table >
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of StudentsData">
+        <td>{{s.name}}</td>
+        <td *ngIf="s.age>18">{{s.age}}</td>
+      </tr>
+    </tbody>
+  </table>

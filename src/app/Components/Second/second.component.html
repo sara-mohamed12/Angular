@@ -1,0 +1,9 @@
+<div class="mainwrapper">
+   <div>
+        <img style="width:400px;height:300px" [src]="src">
+        <input type="button" value="<<" (click)=prev()/>
+        <input type="button" id="start" value="start" (click)=start()/>
+        <input type="button" id="stop" value="stop" (click)=stop()/>
+        <input type="button" value=">>" (click)="next()"/>
+   </div>
+</div>
